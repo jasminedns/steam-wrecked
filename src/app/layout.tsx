@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import PeopleCards from '@/features/components/AT-people-Cards/People-card';
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
+         <PeopleCards />
       </body>
     </html>
   );

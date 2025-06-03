@@ -1,5 +1,6 @@
 export default function Home() {
   return (
-    <h1>DEV BRANCH</h1>
+    <h1>MAIN BRANCH</h1>
+    
   );
 }

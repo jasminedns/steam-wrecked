@@ -5,25 +5,23 @@ const Footer = () => {
     return (
         <footer className="bg-gray-400 text-white flex justify-between p-2">
             <div className="text-white">
-                <p>Links</p>
-                <p>Links</p>
-                <p>Links</p>
-                <p>Links</p>
+                <p>links</p>
+                <p>links</p>
             </div>
             <div className="flex mt-14 ">
-            <div className="bg-black rounded-3xl m-1">
-            <FaInstagram size={32} className="text-gray-600 m-1 p-1"/>
+                <div className="social_icon_container">
+                    <FaInstagram size={32} className="social_icon"/>
+                </div>
+                <div className="social_icon_container">
+                    <FaXTwitter size={32} className="social_icon" />
+                </div>
+                <div className="social_icon_container">
+                    <FaYoutube size={32}  className="social_icon" />
+                </div>
+                <div className="social_icon_container">
+                    <SiItchdotio size={32}   className="social_icon" />
+                </div>
             </div>
-            <div className="bg-black rounded-3xl m-1">
-      <FaXTwitter size={32} className="text-gray-600 m-1 p-1" />
-      </div>
-      <div className="bg-black rounded-3xl m-1">
-      <FaYoutube size={32}  className="text-gray-600 m-1 p-1" />
-      </div>
-      <div className="bg-black rounded-3xl m-1">
-      <SiItchdotio size={32}   className="text-gray-600 m-1 p-1" />
-      </div>
-      </div>
         </footer>
     )
 }

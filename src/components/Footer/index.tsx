@@ -1,12 +1,17 @@
 import { SiItchdotio } from "react-icons/si"
 import { FaXTwitter,FaInstagram,FaYoutube } from "react-icons/fa6";
+import { Pages } from "@/features/arrays/types"
+import Link from "next/link"
 
 const Footer = () => {
     return (
         <footer className="bg-gray-400 text-white flex justify-between p-2">
-            <div className="text-white">
-                <p>links</p>
-                <p>links</p>
+            <div className="uppercase text-xs m-4 flex flex-col">
+                <Link href="/">Homepage</Link>
+                    {Pages.map((item:string,index:number) => (
+                        <Link key={index} href={`/${item.replace(/^the /i, "")}`} className="uppercase text-xs">{item.includes("the") ? `about  ${item}` : item}</Link>
+                    ))}
+
             </div>
             <div className="flex mt-14 ">
                 <div className="social_icon_container">
@@ -23,7 +28,6 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
-    )
+)
 }
-
 export default Footer

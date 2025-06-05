@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import HamburgerMobile from "@/components/HamburgerMobile";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,10 +17,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Header/>
         {children}
-        <div className="block md:hidden flex justify-end">
+        <div className="flex justify-end md:hidden">
         <HamburgerMobile />
         </div>
+        <Footer />
       </body>
     </html>
   );

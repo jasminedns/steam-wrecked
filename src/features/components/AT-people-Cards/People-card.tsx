@@ -21,7 +21,11 @@ const PersonCard: React.FC<PersonCardProps> = ({ person }) => {
       <h3 className="text-3xl font-extrabold text-center uppercase tracking-wide">
         {person.name}
       </h3>
-      <p className="text-xl text-center text-white mt-8">{person.subrole}</p>
+      <p className="text-xl text-center text-white mt-8">
+        {[person.subrole, person.subrole2, person.subrole3]
+      .filter(Boolean)
+      .join(' / ')}
+      </p>
       <button
         onClick={handleConnect}
         disabled={!person.email}

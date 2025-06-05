@@ -27,6 +27,7 @@ export interface PeopleCardsProps {
 }
 
 export const categories: Category[] = [
+  { id: 'frontend developer', name: 'FRONT-END DEVELOPERS'},
   { id: 'designer', name: 'DESIGNERS' },
   { id: 'artist', name: 'ARTISTS' },
   { id: 'programmer', name: 'PROGRAMMERS' },
@@ -38,8 +39,9 @@ export const people: Person[] = [
     {
         id: 1,
         name: "Carl Åberg",
-        subrole: "system designer",
-        category: "designer",
+        subrole: "frontend developer",
+        subrole2:"potato enjoyer",
+        category: "frontend developer",
         email: "caaberg99@gmail.com"
     }
 ];

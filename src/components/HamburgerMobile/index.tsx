@@ -5,7 +5,7 @@ import { useState } from 'react'
 const HamburgerMobile = () => {
     const [isOpen, setOpen] = useState(false)
     return (
-        <Hamburger toggled={isOpen} toggle={setOpen} color="blue"/>
+        <Hamburger toggled={isOpen} toggle={setOpen} color="white"/>
     )
 }
 

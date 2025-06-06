@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import HamburgerMobile from "@/components/HamburgerMobile";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
@@ -19,9 +18,6 @@ export default function RootLayout({
       <body>
         <Header/>
         {children}
-        <div className="flex justify-end md:hidden">
-        <HamburgerMobile />
-        </div>
         <Footer />
       </body>
     </html>

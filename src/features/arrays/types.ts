@@ -18,3 +18,9 @@ export const people: Person [] = [
         email: "caaberg99@gmail.com"
     }
 ];
+
+//types for navigation links 
+
+export type PagesType = string[];
+
+export const Pages:PagesType = ["the game","the team","media"]

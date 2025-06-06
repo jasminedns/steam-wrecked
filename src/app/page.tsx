@@ -6,6 +6,5 @@ export default function Home() {
       <div className="absolute bottom-40 max-sm:bottom-[39.3%] max-md:bottom-[29%] w-full h-3 bg-black/10 backdrop-blur-sm pointer-events-none z-10"></div>
       <div className="relative max-sm:h-[65vh] max-md:h-[60vh] -mb-26 h-[70vh] bg-[url('/images/background/EnvironmentConceptGroundlevel.jpeg')] bg-cover bg-[center_right_20%] sm:bg-right md:bg-center w-full"></div>
     </div>
-
   );
 }

@@ -3,7 +3,7 @@ import { FaXTwitter,FaInstagram,FaYoutube } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-400/50 bg-opacity-50 text-white flex justify-between p-2">
+        <footer className="bg-gray-400 bg-opacity-50 text-white flex justify-between p-2">
             <div className="text-white">
                 <p>links</p>
                 <p>links</p>

@@ -12,6 +12,7 @@ const Footer = () => {
                         <Link key={index} href={`/${item.replace(/^the /i, "")}`} className="uppercase text-xs">{item.includes("the") ? `about  ${item}` : item}</Link>
                     ))}
             </div>
+                </div>       
             <div className="flex mt-14 ">
                 <div className="social_icon_container">
                     <FaInstagram size={32} className="social_icon"/>

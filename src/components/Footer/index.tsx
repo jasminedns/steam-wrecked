@@ -5,6 +5,7 @@ import Link from "next/link"
 
 const Footer = () => {
     return (
+<<<<<<< HEAD
         <footer className="bg-gray-400 text-white flex justify-between p-2">
             <div className="uppercase text-xs m-4 flex flex-col">
                 <Link href="/">Homepage</Link>
@@ -12,6 +13,13 @@ const Footer = () => {
                         <Link key={index} href={`/${item.replace(/^the /i, "")}`} className="uppercase text-xs">{item.includes("the") ? `about  ${item}` : item}</Link>
                     ))}
                 </div>       
+=======
+        <footer className="bg-gray-400 bg-opacity-50 text-white flex justify-between p-2">
+            <div className="text-white">
+                <p>links</p>
+                <p>links</p>
+            </div>
+>>>>>>> a0727ca60752f8b55f7bf3646740dbdebc2c5ef2
             <div className="flex mt-14 ">
                 <div className="social_icon_container">
                     <FaInstagram size={32} className="social_icon"/>

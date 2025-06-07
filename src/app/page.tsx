@@ -1,4 +1,5 @@
 import HpDownloadDiv from "@/components/Download/HpDownloadDiv";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -7,6 +8,11 @@ export default function Home() {
       <div className="absolute bottom-30 left-0 w-full h-3 bg-gradient-to-b from-transparent to-white/30 backdrop-blur-sm z-10 pointer-events-none"></div>
       <div className="h-[30vh] bg-[url('/images/background/EnvironmentConceptGroundlevel.jpeg')] bg-cover bg-top w-full"></div>
       <HpDownloadDiv />
+      <div className="flex justify-evenly">
+        <Image src="/images/player/selected_player.png" alt="" height={300} width={200}/>
+        <Image src="/images/player/player1.png" alt="" height={300} width={200}/>
+        <Image src="/images/player/player4.png" alt="" height={300} width={200}/>
+      </div>
     </div>
   );
 }

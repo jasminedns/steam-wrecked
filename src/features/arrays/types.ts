@@ -46,3 +46,10 @@ export const people: Person[] = [
     }
 ];
 
+
+
+//types for navigation links 
+
+export type PagesType = string[];
+
+export const Pages:PagesType = ["the game","the team","media"]

@@ -78,13 +78,18 @@
 }
 
 .image__link {
+  align-items: center;
   color: black; /*temporary so it's visible on white background*/
+  display: flex;
   font-family: Charter;
   font-size: 1.5rem;
   font-weight: bold;
+  justify-content: center;
+  min-height: 88px;
+  min-width: 212px;
+  padding: 8px;
   text-align: center;
   text-transform: uppercase;
-  padding: 8px;
 }
 
 @media screen and (max-width: 677px) {

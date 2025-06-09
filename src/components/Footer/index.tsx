@@ -5,13 +5,13 @@ import Link from "next/link"
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-400 text-white flex justify-between p-2">
+        <footer className="bg-gray-400\50 text-white flex justify-between p-2 z-10">
             <div className="uppercase text-xs m-4 flex flex-col">
                 <Link href="/">Homepage</Link>
                     {Pages.map((item:string,index:number) => (
                         <Link key={index} href={`/${item.replace(/^the /i, "")}`} className="uppercase text-xs">{item.includes("the") ? `about  ${item}` : item}</Link>
                     ))}
-                </div>       
+            </div>
             <div className="flex mt-14 ">
                 <div className="social_icon_container">
                     <FaInstagram size={32} className="social_icon"/>
@@ -27,6 +27,6 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
-)
+    )
 }
 export default Footer

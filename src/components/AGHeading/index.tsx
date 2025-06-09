@@ -10,4 +10,4 @@ const AGHeading = () => {
     );
 }
 
-export default AGHeading;
+export default AGHeading; 

@@ -42,3 +42,21 @@
   margin: 4px;
   padding: 4px;
 }
+
+.image__link {
+  color: white;
+  font-family: Charter;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.image__link:hover {
+  color: black;
+}
+
+@media screen and (max-width: 677px) {
+  .mobile {
+    align-items: center;
+    flex-direction: column;
+  }
+}

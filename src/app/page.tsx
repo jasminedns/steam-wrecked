@@ -1,6 +1,5 @@
 import HpDownloadDiv from "@/components/Download/HpDownloadDiv";
 import ImageLink from "@/components/ImageLink";
-import Image from "next/image";
 
 export default function Home() {
   return (

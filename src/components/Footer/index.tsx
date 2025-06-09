@@ -5,7 +5,7 @@ import Link from "next/link"
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-400\50 text-white flex justify-between p-2 z-10">
+        <footer className="relative bg-gray-400/40 text-white flex justify-between p-0 z-10">
             <div className="uppercase text-xs m-4 flex flex-col">
                 <Link href="/">Homepage</Link>
                     {Pages.map((item:string,index:number) => (

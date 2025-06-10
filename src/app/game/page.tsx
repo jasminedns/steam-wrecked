@@ -1,4 +1,4 @@
-import AGHeading from "@/components/AGHeading/AGHeading"
+import AGHeading from "@/components/AGHeading/index"
 
 const GamePage = () => {
     return(

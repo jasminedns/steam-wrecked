@@ -79,7 +79,7 @@
 
 .image__link {
   align-items: center;
-  color: black; /*temporary so it's visible on white background*/
+  color: white;
   display: flex;
   font-family: Charter;
   font-size: 1.5rem;

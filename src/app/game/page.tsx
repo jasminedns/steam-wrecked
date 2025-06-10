@@ -1,5 +1,6 @@
 import AGBalloonDiv from "@/components/AG_Balloon_content"
-import AGHeading from "@/components/AGHeading"
+import AGHeading from "@/components/AGHeading/index"
+
 
 const GamePage = () => {
     return(

@@ -1,5 +1,3 @@
-// components/wrappers/BackgroundWrapper.tsx
-// components/wrappers/BackgroundWrapper.tsx
 import { ReactNode } from 'react'
 
 const BackgroundWrapper = ({ children }: { children: ReactNode }) => {

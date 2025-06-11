@@ -44,22 +44,19 @@ const PersonCard: React.FC<PersonCardProps> = ({ person }) => {
 
 const CategorySelection: React.FC<CategorySelectionProps> = ({ onCategorySelect }) => {
   return (
-    <div className="min-h-screen py-16 px-4 flex flex-col items-center justify-center">
-     
-      
-      
-      <div className="grid grid-cols-1 m-8 md:grid-cols-2 gap-8 max-w-4xl w-full">
+    <div className="min-h-screen py-16 px-2 md:px-4 flex flex-col items-center justify-center">
+      <div className="flex md:flex-row flex-wrap justify-center items-center md:m-8">
         {categories.map((category) => (
           <button
             key={category.id}
             onClick={() => onCategorySelect(category.id)}
-            className="bg-[#060A0A] opacity-77 text-white min-h-[10em] rounded-full p-6 w-full max-w-[28em] flex flex-col justify-center hover:cursor-pointer hover:opacity-90 transition-all duration-300 hover:scale-105 shadow-none hover:shadow-[0_0_15px_6px_rgba(255,115,0,0.7)] mx-auto"
+            className="bg-[#060A0A] m-2 text-white min-h-[7em] rounded-full w-[45%] md:w-[29%] flex flex-col justify-center hover:cursor-pointer transition-all duration-300 hover:scale-105 shadow-none hover:shadow-[0_0_15px_6px_rgba(255,115,0,0.7)]"
           >
             <div className="text-center">
-              <h2 className="text-3xl font-extrabold text-white uppercase tracking-wide mb-4">
+              <h2 className="text-lg md:text-text-xl font-extrabold text-white uppercase tracking-wide m-auto p-2">
                 {category.name}
               </h2>
-              <div className="w-16  bg-[radial-gradient(circle,_#EC8C2D_20%,_#761E1C_100%)]  rounded-3xl opacity-80"></div>
+              <div className="w-16 bg-[radial-gradient(circle,_#EC8C2D_20%,_#761E1C_100%)] rounded-3xl opacity-80"></div>
             </div>
           </button>
         ))}

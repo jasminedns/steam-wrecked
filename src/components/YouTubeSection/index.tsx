@@ -8,11 +8,9 @@ const YouTubeSection = () => {
                 className="w-full border-4 aspect-video"
                 src="https://www.youtube.com/embed/dQw4w9WgXcQ"
                 title="YouTube video"
-                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture web-share"
-                max-width="100%"
-                max-height="100%"
+                style={{ border: 'none' }}
                 allowFullScreen
-            ></iframe>
+            />
         </div>
     )
 }

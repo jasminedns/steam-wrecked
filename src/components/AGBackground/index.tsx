@@ -2,7 +2,7 @@ import { ReactNode } from 'react'
 
 const BackgroundWrapper = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="h-screen w-full relative">
+    <div className="min-h-screen w-full relative">
       <div 
         className="absolute inset-0 bg-left saturate-150 contrast-125 bg-no-repeat opacity-50 -z-20"
         style={{
@@ -13,7 +13,7 @@ const BackgroundWrapper = ({ children }: { children: ReactNode }) => {
       <div className="absolute inset-0 bg-black/60 -z-10"></div>
       
    
-      <div className="relative h-full p-8 overflow-auto z-10">
+      <div className="relative p-8 z-10">
         {children}
       </div>
     </div>

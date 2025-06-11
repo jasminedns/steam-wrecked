@@ -1,4 +1,6 @@
 import HamburgerMobile from "@/components/HamburgerMobile";
+import HeaderIcon from "../HeaderIcon";
+import HeaderLinks from "../HeaderLinks";
 const Header = () => {
     return (
         <header>
@@ -8,7 +10,11 @@ const Header = () => {
         <HamburgerMobile />
         </div>
         </div>
+        <HeaderIcon />
+        <HeaderLinks />
       </header>
+      
+
     )
 }
 

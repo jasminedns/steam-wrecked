@@ -1,11 +1,11 @@
-import YouTubeSection from "@/components/YouTubeSection";
+import BackgroundWrapper from "@/components/AGBackground"
 
 const MediaPage = () => {
     return (
-    <div>
-        <h1>Media of steam-wreck</h1>
-        <YouTubeSection />
-    </div>
+        <BackgroundWrapper>
+            <h1>Media of steam-wreck</h1>
+        </BackgroundWrapper>
+
     )
 }
 

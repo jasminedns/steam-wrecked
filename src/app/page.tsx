@@ -1,4 +1,5 @@
 import ImageLink from "@/components/ImageLink"
+import AGShowcaseImages from "@/components/AGshowCaseImages";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
           <ImageLink />
         </div>
       </div>
+      <AGShowcaseImages />
     </div>
   );
 }

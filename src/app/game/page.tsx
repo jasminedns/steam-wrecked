@@ -1,10 +1,11 @@
 import AGBalloonDiv from "@/components/AG_Balloon_content"
 import AGHeading from "@/components/AGHeading"
-
+import BackArrow from "@/components/BackArrow"
 const GamePage = () => {
     return(
         <>
         <div className="relative h-screen bg-[#2F5E72]">
+            <BackArrow />
             <div className="absolute inset-0">
                 <div className="relative z-10 text-white flex flex-col items-center justify-center h-full ">
                     <img src="/images/background/AG_bg.JPEG" alt="Background" className="w-full h-full object-cover object-left-bottom opacity-20 mix-blend-multiply" />

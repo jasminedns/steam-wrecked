@@ -1,7 +1,8 @@
 'use client'
 import YouTube from 'react-youtube'
 import { useState } from 'react';
-import { PlayCircleIcon } from '@phosphor-icons/react';
+import 'react-social-icons/youtube';
+import { SocialIcon } from 'react-social-icons';
 const AG_Trailer_Div = () => {
     const [isPlaying, setIsPlaying] = useState(false);
 
@@ -10,7 +11,7 @@ const AG_Trailer_Div = () => {
         <>
             <div className="flex flex-col m-8">
                 <p className="uppercase text-3xl text-left charter mx-6 text-[#F5F5F5]">Trailer</p>
-                <div className="w-full max-w-96 m-6 aspect-video relative">
+                <div className="w-full max-w-[450px] m-6 aspect-video relative">
       {isPlaying ? (
         <YouTube
           videoId={videoId}
@@ -28,7 +29,7 @@ const AG_Trailer_Div = () => {
           className="w-full h-full bg-black flex items-center justify-center cursor-pointer"
           onClick={() => setIsPlaying(true)}
         >
-          <PlayCircleIcon size={64} color="white" weight="fill" />
+          <SocialIcon url='www.youtube.com'  />
         </div>
       )}
     </div>

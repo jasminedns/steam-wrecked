@@ -11,7 +11,7 @@ const HeaderIcon = () => {
           alt="Steam Wrecked Logo"
           width={50}
           height={50}
-          className="rounded-full"
+          className="rounded-full drop-shadow-[0-0-40px_#F92A06]"
         />
     
     </Link>

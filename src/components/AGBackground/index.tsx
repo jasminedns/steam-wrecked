@@ -2,13 +2,18 @@ import { ReactNode } from 'react'
 
 const BackgroundWrapper = ({ children }: { children: ReactNode }) => {
   return (
-    <div 
-      className="h-screen w-full bg-cover bg-left saturate-150 contrast-125 bg-no-repeat opacity-50"
-      style={{
-        backgroundImage: "url('/images/background/AG_bg.JPEG')",
-      }}
-    >
-      <div className="h-full p-8 overflow-auto">
+    <div className="h-screen w-full relative">
+      <div 
+        className="absolute inset-0 bg-left saturate-150 contrast-125 bg-no-repeat opacity-50 -z-20"
+        style={{
+          backgroundImage: "url('/images/background/AG_bg.JPEG')",
+        }}
+      />
+      
+      <div className="absolute inset-0 bg-black/60 -z-10"></div>
+      
+   
+      <div className="relative h-full p-8 overflow-auto z-10">
         {children}
       </div>
     </div>

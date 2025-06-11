@@ -5,7 +5,7 @@ import AGHeading from "@/components/AGHeading"
 const GamePage = () => {
     return(
         <>
-        <div className="relative h-screen bg-[#2F5E72]">
+        <div className="relative h-[550px]  bg-[#2F5E72]">
             <div className="absolute inset-0">
                 <div className="relative z-10 text-white flex flex-col items-center justify-center h-full ">
                     <img src="/images/background/AG_bg.JPEG" alt="Background" className="w-full h-full

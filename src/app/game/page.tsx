@@ -12,6 +12,7 @@ const GamePage = () => {
                     <div className="absolute top-4">
                     <AGHeading />
                     <AGBalloonDiv />
+
                     </div>
                 </div>
             </div>

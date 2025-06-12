@@ -16,8 +16,9 @@ const GamePage = () => {
                     <img src="/images/background/AG_bg.JPEG" alt="Background" className="w-full h-full
                      object-cover object-left-bottom opacity-20 mix-blend-multiply" />
                     <div className="absolute top-4">
-                        <AGHeading />
-                        <AGBalloonDiv />
+                    <AGHeading />
+                    <AGBalloonDiv />
+
                     </div>
                 </div>
             </div>

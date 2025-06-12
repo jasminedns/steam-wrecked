@@ -29,11 +29,9 @@ const MediaPage = () => {
                     </div>
                 </div> 
             </div>
-        <BottomToTopArrow />
-
-            <h1>Media of steam-wreck</h1>
             <YouTubeSection />
-
+            <BottomToTopArrow />
+            
         </BackgroundWrapper>
 
     )

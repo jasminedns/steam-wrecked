@@ -1,6 +1,6 @@
 const YouTubeSection = () => {
     return (
-        <div className="w-[70vw] mx-auto bg-transparent">
+        <div className="w-[70vw] mx-auto">
             <h2 className=" md:text-5xl charter text-center p-4 whitespace-nowrap text-lg">
                 WATCH TUTORIAL
             </h2>

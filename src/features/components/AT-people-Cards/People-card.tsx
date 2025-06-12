@@ -44,10 +44,7 @@ const PersonCard: React.FC<PersonCardProps> = ({ person }) => {
 
 const CategorySelection: React.FC<CategorySelectionProps> = ({ onCategorySelect }) => {
   return (
-    <div className="min-h-screen py-16 px-4 flex flex-col items-center justify-center">
-     
-      
-      
+    <div className="flex flex-col items-center justify-center bg-gradient-to-b from-[#79221E] to-[#4A1410]">
       <div className="grid grid-cols-1 m-8 md:grid-cols-2 gap-8 max-w-4xl w-full">
         {categories.map((category) => (
           <button
@@ -73,7 +70,7 @@ const PeopleCards: React.FC<PeopleCardsProps> = ({ category, onBack }) => {
   const categoryInfo = categories.find(cat => cat.id === category);
 
   return (
-    <div className="min-h-screen py-16 px-4">
+    <div className="min-h-screen py-16 px-4 bg-gradient-to-b from-[#79221E] to-[#4A1410]">
       <div className="flex items-center justify-center flex-col mb-12 gap-6">
         <button
           onClick={onBack}

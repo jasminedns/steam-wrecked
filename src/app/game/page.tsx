@@ -1,5 +1,6 @@
 import AGBalloonDiv from "@/components/AG_Balloon_content"
 import AG_PPV_Div from "@/components/AG_PPV_Div"
+import AG_Trailer_Div from "@/components/AG_Trailer_Div"
 import AGHeading from "@/components/AGHeading"
 import BottomToTopArrow from "@/components/BottomToTopArrow"
 
@@ -22,11 +23,13 @@ const GamePage = () => {
             </div>
         </div>
             <div className="bg-[linear-gradient(75deg,rgba(23,109,130,1)_0%,rgba(130,100,75,1)_27%,rgba(32,113,135,1)_61%,rgba(16,84,94,1)_100%)] h-200 relative">
-                 <BottomToTopArrow />
-                 <div className="flex flex-col md:flex-row justify-around">
-              <AG_PPV_Div />
-              </div>
+                <div className="flex flex-col md:flex-row justify-around">
+                    <AG_Trailer_Div />
+                    <AG_PPV_Div />
+                </div>
+              <BottomToTopArrow />
             </div>
+
 
         </>
     )

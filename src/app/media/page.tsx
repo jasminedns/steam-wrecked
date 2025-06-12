@@ -2,13 +2,13 @@ import "@/app/globals.css"
 
 const MediaPage = () => {
     return (
-        <div className="bg-[url(/images/background/AG_bg.JPEG)]">
+        <div className="mb-[32px]">
             <div className="flex justify-center items-center">
                 <div className="bg-black/27 rounded-3xl w-[90%] md:w-[30%] m-[24px]">
                     <h2 className="text-[#E3E3E3] font-bold charter text-4xl md:text-6xl text-center p-4">MEDIA</h2>
                 </div>
             </div>
-            <div className="min-h-[450px] w-[100%] mt-[48px]">
+            <div className="md:min-h-[450px] w-[100%] my-[48px]">
                 <div className="flex flex-row justify-center items-end w-[60%] m-auto relative">
                     {[
                         "/images/player/selected_player.png",

@@ -44,7 +44,7 @@ const PersonCard: React.FC<PersonCardProps> = ({ person }) => {
 
 const CategorySelection: React.FC<CategorySelectionProps> = ({ onCategorySelect }) => {
   return (
-    <div className="min-h-screen py-16 px-2 md:px-4 flex flex-col items-center justify-center bg-gradient-to-b from-[#79221E] to-[#4A1410]">
+    <div className="py-16 px-2 md:px-4 flex flex-col items-center justify-center">
       <div className="flex md:flex-row flex-wrap justify-center items-center md:m-8">
         {categories.map((category) => (
           <button
@@ -53,7 +53,7 @@ const CategorySelection: React.FC<CategorySelectionProps> = ({ onCategorySelect 
             className="bg-[#060A0A] m-2 text-white min-h-[7em] rounded-full w-[45%] md:w-[29%] flex flex-col justify-center hover:cursor-pointer transition-all duration-300 hover:scale-105 shadow-none hover:shadow-[0_0_15px_6px_rgba(255,115,0,0.7)]"
           >
             <div className="text-center">
-              <h2 className="text-lg md:text-text-xl font-extrabold text-white uppercase tracking-wide m-auto p-2">
+              <h2 className="text-sm md:text-xl font-extrabold text-white uppercase tracking-wide m-auto p-2">
                 {category.name}
               </h2>
               <div className="w-16 bg-[radial-gradient(circle,_#EC8C2D_20%,_#761E1C_100%)] rounded-3xl opacity-80"></div>
@@ -70,7 +70,7 @@ const PeopleCards: React.FC<PeopleCardsProps> = ({ category, onBack }) => {
   const categoryInfo = categories.find(cat => cat.id === category);
 
   return (
-    <div className="min-h-screen py-16 px-4 bg-gradient-to-b from-[#79221E] to-[#4A1410]">
+    <div className="py-16 px-4 bg-gradient-to-b from-[#79221E] to-[#4A1410]">
       <div className="flex items-center justify-center flex-col mb-12 gap-6">
         <button
           onClick={onBack}
@@ -110,7 +110,7 @@ const PeopleCard: React.FC = () => {
   };
 
   return (
-    <div className="bg-transparent max-h-[100%]">
+    <div className="flex justify-center items-center flex-grow bg-gradient-to-b from-[#79221E] to-[#4A1410]">
       {!selectedCategory ? (
         <CategorySelection onCategorySelect={handleCategorySelect} />
       ) : (

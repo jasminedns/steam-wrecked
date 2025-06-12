@@ -3,7 +3,7 @@ import { ReactNode } from 'react'
 const BackgroundWrapper = ({ children }: { children: ReactNode }) => {
   return (
     <div 
-      className="h-screen w-full bg-cover bg-left saturate-150 contrast-125 bg-no-repeat opacity-50"
+      className="h-screen w-full bg-cover bg-left saturate-150 contrast-125 bg-no-repeat opacity-40"
       style={{
         backgroundImage: "url('/images/background/AG_bg.JPEG')",
       }}

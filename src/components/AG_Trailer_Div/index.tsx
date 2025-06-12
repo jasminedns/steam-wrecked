@@ -20,6 +20,7 @@ const AG_Trailer_Div = () => {
                           allowFullScreen
                         />
                         ) : (
+                            
                         <div className="w-full h-full bg-black flex items-center justify-center cursor-pointer" onClick={() => setIsPlaying(true)}>
                             <YoutubeLogoIcon fill='red' size={56}/>
                         </div>

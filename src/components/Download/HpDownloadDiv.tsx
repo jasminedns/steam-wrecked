@@ -7,7 +7,9 @@ const HpDownloadDiv = () => {
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold leading-snug sm:leading-normal mb-6">
           THE WORLD OF <br className="hidden sm:block" /> STEAM WRECKED
         </h1>
-        <HpDownloadButton/>
+        <a href="#" download>
+          <HpDownloadButton />
+        </a>
       </div>
     </div>
   );

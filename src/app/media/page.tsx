@@ -1,12 +1,11 @@
 import "@/app/globals.css"
-import BackgroundWrapper from "@/components/AGBackground"
 import BottomToTopArrow from "@/components/BottomToTopArrow"
+import BackgroundWrapper from "@/components/AGBackground"
 import YouTubeSection from "@/components/YouTubeSection"
-
 const MediaPage = () => {
     return (
-        <>
         <BackgroundWrapper>
+
             <div className="mb-[32px]">
                 <div className="flex justify-center items-center">
                     <div className="bg-black/27 rounded-3xl w-[90%] md:w-[30%] m-[24px]">
@@ -30,11 +29,14 @@ const MediaPage = () => {
                     </div>
                 </div> 
             </div>
+        <BottomToTopArrow />
+
+            <h1>Media of steam-wreck</h1>
             <YouTubeSection />
-            <BottomToTopArrow />
+
         </BackgroundWrapper>
-        </>
+
     )
 }
-            
+
 export default MediaPage

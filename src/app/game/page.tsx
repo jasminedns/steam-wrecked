@@ -1,5 +1,6 @@
-import AGHeading from "@/components/AGHeading/AGHeading"
-import AGDescriptionDiv from "@/components/AGDescriptionDiv"
+import AGBalloonDiv from "@/components/AG_Balloon_content"
+import AGHeading from "@/components/AGHeading"
+
 const GamePage = () => {
     return(
         <>
@@ -9,7 +10,8 @@ const GamePage = () => {
                     <img src="/images/background/AG_bg.JPEG" alt="Background" className="w-full h-full object-cover object-left-bottom opacity-20 mix-blend-multiply" />
                     <div className="absolute top-4">
                     <AGHeading />
-                    <AGDescriptionDiv />
+                    <AGBalloonDiv />
+
                     </div>
                 </div>
             </div>

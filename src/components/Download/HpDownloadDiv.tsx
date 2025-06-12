@@ -1,3 +1,5 @@
+import HpDownloadButton from "./HpDownloadButton";
+
 const HpDownloadDiv = () => {
   return (
     <div className="w-full flex justify-center items-center py-8 px-4 sm:px-6 md:px-10 charter">
@@ -5,6 +7,7 @@ const HpDownloadDiv = () => {
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold leading-snug sm:leading-normal mb-6">
           THE WORLD OF <br className="hidden sm:block" /> STEAM WRECKED
         </h1>
+        <HpDownloadButton/>
       </div>
     </div>
   );

@@ -2,13 +2,14 @@ import "@/app/globals.css"
 import BottomToTopArrow from "@/components/BottomToTopArrow"
 import BackgroundWrapper from "@/components/AGBackground"
 import YouTubeSection from "@/components/YouTubeSection"
+
 const MediaPage = () => {
     return (
         <BackgroundWrapper>
 
             <div className="mb-[32px]">
                 <div className="flex justify-center items-center">
-                    <div className="bg-black/27 rounded-3xl w-[90%] md:w-[30%] m-[24px]">
+                    <div className="bg-black/27 rounded-3xl w-[90%] md:w-[50%] lg:w-[30%] m-[24px]">
                         <h2 className="text-[#E3E3E3] font-bold charter text-4xl md:text-6xl text-center p-4">MEDIA</h2>
                     </div>
                 </div>
@@ -31,9 +32,7 @@ const MediaPage = () => {
             </div>
             <YouTubeSection />
             <BottomToTopArrow />
-            
         </BackgroundWrapper>
-
     )
 }
 

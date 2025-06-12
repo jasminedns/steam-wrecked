@@ -1,8 +1,10 @@
 import "@/app/globals.css"
 import BackgroundWrapper from "@/components/AGBackground"
+import BottomToTopArrow from "@/components/BottomToTopArrow"
 import YouTubeSection from "@/components/YouTubeSection"
 const MediaPage = () => {
     return (
+        <>
         <BackgroundWrapper>
             <div>
                 <div className="flex justify-center items-center">
@@ -28,7 +30,10 @@ const MediaPage = () => {
                 </div> 
             </div>
             <YouTubeSection />
+            <BottomToTopArrow />
         </BackgroundWrapper>
+     
+     </>
     )
 }
 

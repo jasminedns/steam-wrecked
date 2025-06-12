@@ -31,16 +31,16 @@
   color: #E3E3E3;
 }
 
-.social_icon_container {
+.social_icon {
   background-color: black;
   border-radius: 25px;
-  margin: 4px;
-}
-
-.social_icon {
   color: rgb(73, 73, 73);
   margin: 4px;
   padding: 4px;
+}
+
+.social_icon:hover {
+  padding: 6px;
 }
 
 .image__container {

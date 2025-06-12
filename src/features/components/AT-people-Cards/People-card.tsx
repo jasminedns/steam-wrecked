@@ -17,7 +17,7 @@ const PersonCard: React.FC<PersonCardProps> = ({ person }) => {
   };
 
   return (
-    <div className="bg-[#060A0A] opacity-77 text-white rounded-4xl p-6 w-full max-w-[28em] flex flex-col items-center shadow-xl">
+    <div className="bg-[#060A0A] opacity-77 text-white rounded-4xl p-6 w-full max-w-[28em] flex flex-col flex-grow justify-between items-center shadow-xl">
       <h3 className="text-3xl font-extrabold text-center uppercase tracking-wide">
         {person.name}
       </h3>
@@ -70,7 +70,7 @@ const PeopleCards: React.FC<PeopleCardsProps> = ({ category, onBack }) => {
   const categoryInfo = categories.find(cat => cat.id === category);
 
   return (
-    <div className="py-16 px-4 bg-gradient-to-b from-[#79221E] to-[#4A1410]">
+    <div className="py-16 px-4">
       <div className="flex items-center justify-center flex-col mb-12 gap-6">
         <button
           onClick={onBack}

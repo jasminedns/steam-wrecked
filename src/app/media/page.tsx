@@ -2,10 +2,15 @@ import "@/app/globals.css"
 import BottomToTopArrow from "@/components/BottomToTopArrow"
 import BackgroundWrapper from "@/components/AGBackground"
 import YouTubeSection from "@/components/YouTubeSection"
+import BackArrow from "@/components/BackArrow"
+
 const MediaPage = () => {
     return (
+        <>
+        <div className="absolute z-50 pointer-events-auto bg-transparent">
+              <BackArrow/>
+          </div>
         <BackgroundWrapper>
-
             <div className="mb-[32px]">
                 <div className="flex justify-center items-center">
                     <div className="bg-black/27 rounded-3xl w-[90%] md:w-[30%] m-[24px]">
@@ -23,19 +28,16 @@ const MediaPage = () => {
                         ].map((item, index) => (
                             <div key={index} className={`relative w-[200px] h-[200px] md:h-[300px] flex justify-center items-center ${index > 2 ? "hidden xl:flex" : ""}`}>
                                 <img src={item} alt="player image" className="w-full h-full relative z-20"/>
-                                <div className="absolute h-[450px] w-[450px] bg-radial from-[#D0780B] from-25% to-transparent to-60%"></div>
+                                <div className="absolute h-[400px] w-[200px] sm:w-[300px] md:w-[450px] md:h-[450px] bg-radial from-[#D0780B] from-25% to-transparent to-60%"></div>
                             </div>
                         ))}
                     </div>
                 </div> 
             </div>
-        <BottomToTopArrow />
-
-            <h1>Media of steam-wreck</h1>
             <YouTubeSection />
-
+            <BottomToTopArrow />
         </BackgroundWrapper>
-
+        </>
     )
 }
 

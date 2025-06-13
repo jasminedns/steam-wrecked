@@ -4,16 +4,14 @@ import React from 'react';
 
 const HeaderIcon = () => {
   return (
-    <Link href="/" className="flex items-center coursor-pointer">
-     
-        <Image
-          src="/logo.png"
-          alt="Steam Wrecked Logo"
-          width={50}
-          height={50}
-          className="rounded-full"
-        />
-    
+    <Link href="/" className="flex items-center cursor-pointer">
+      <Image
+        src="/logo.png"
+        alt="Steam Wrecked Logo"
+        width={50}
+        height={50}
+        className="rounded-full"
+      />
     </Link>
   );
 };

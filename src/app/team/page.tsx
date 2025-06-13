@@ -14,8 +14,7 @@ const TeamPage = () => {
                 <div className="absolute h-[100px] w-[100%] bg-gradient-to-t from-[#79221E] to-transparent top-[72%] md:top-[80%]"></div>
             </div>
             <PeopleCards/>
-        
-        </>
+        </div>
     )
 }
 

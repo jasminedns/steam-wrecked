@@ -1,9 +1,10 @@
 const AGDescriptionDiv = () => {
     return (
         <>
-      
-            <div className="bg-[#060A0A]/65  w-[350px] sm:w-[400px] md:w-[550px] lg:w-[700px] p-5 rounded-[45px] text-white 
-                 absolute top-[240px] sm:top-[250px] md:top-[280px] lg:top-[300px]">
+
+        <div className="mt-40 relative flex w-full justify-center">
+            <div className="bg-[#060A0A]/65  w-[300px] sm:w-[400px] md:w-[550px] lg:w-[700px] p-5 rounded-[45px] text-white 
+                absolute top-[-40px] md:top-[-20px] lg:top-[-10px]">
                 <p className="mt-6 mx-10 sm:mx-16 text-justify charter">In a world ravaged by pollution and climate collapse, 
                     the wealthy have escaped to airborne cities, leaving the poor to survive in the scorched ruins below. 
                     You are a scavenger — a member of the Sandwalkers Guild — risking your life to collect vital resources 
@@ -15,7 +16,7 @@ const AGDescriptionDiv = () => {
                     Will you rise again — or be consumed by the ruins of the past?
                 </p>
             </div>
-        
+        </div>
         </>
     )
 }

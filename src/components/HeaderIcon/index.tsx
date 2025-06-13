@@ -6,7 +6,7 @@ import HeaderLinks from '../HeaderLinks';
 
 const HeaderIcon = () => {
   return (
-    <Link href="/" className="flex items-center coursor-pointer">
+    <Link href="/" className="flex items-center coursor-pointer basis-[50%]">
      
         <Image
           src="/images/background/logo.png"
@@ -14,7 +14,7 @@ const HeaderIcon = () => {
           width={0}
           height={0}
           sizes='100vw'
-          className='w-[5%] h-auto'
+          className='m-1 sm:m-2 w-[35%] sm:w-[25%] md:w-[20%] lg:w-[15%] h-auto'
         />
     
     </Link>

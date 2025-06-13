@@ -10,8 +10,7 @@ const BackgroundWrapper = ({ children }: { children: ReactNode }) => {
           className="w-full h-fit md:h-full object-cover object-left-bottom opacity-10"
         />
       </div>
-
-      <div className="relative z-10 px-4 sm:px-6 md:px-12 lg:px-24 py-6 relative min-h-[70vh] max-md:min-h-[60vh] max-sm:min-h-[65vh] -mb-26 w-full pb-24">
+      <div className="relative z-10 px-4 sm:px-6 md:px-12 lg:px-24 py-6">
         {children}
       </div>
     </div>

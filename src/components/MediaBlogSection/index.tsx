@@ -37,7 +37,7 @@ const MediaBlogSection = () => {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-10 md:grid-cols-4 gap-4 justify-items-center justufy-center">
+      <div className="grid grid-cols-1 sm:grid-cols-10 md:grid-cols-4 gap-4 justify-items-center justify-center">
         {blogItems.map((item, index) => {
           const isExpanded = expandedIndex === index;
           const shortText = item.content.split('\n').slice(0, 2).join('\n') + '...';

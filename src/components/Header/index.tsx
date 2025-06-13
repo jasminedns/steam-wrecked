@@ -10,8 +10,9 @@ const Header = () => {
         <HamburgerMobile />
         </div>
         </div>
+         <HeaderLinks />
         <HeaderIcon />
-        <HeaderLinks />
+       
       </header>
       
 

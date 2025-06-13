@@ -2,6 +2,7 @@ import "@/app/globals.css"
 import BottomToTopArrow from "@/components/BottomToTopArrow"
 import BackgroundWrapper from "@/components/AGBackground"
 import YouTubeSection from "@/components/YouTubeSection"
+import BlogMediaSection from "@/components/MediaBlogSection/BlogMediaSection"
 const MediaPage = () => {
     return (
         <BackgroundWrapper>
@@ -33,6 +34,10 @@ const MediaPage = () => {
 
             <h1>Media of steam-wreck</h1>
             <YouTubeSection />
+
+            <div>
+                <BlogMediaSection/>
+            </div>
 
         </BackgroundWrapper>
 

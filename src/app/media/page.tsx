@@ -38,7 +38,7 @@ const MediaPage = () => {
             <YouTubeSection />
 
             <BottomToTopArrow />
-=======
+
             <SocialMediaIcons />
 
         </BackgroundWrapper>

@@ -10,7 +10,7 @@ const HamburgerMobile = () => {
         <>
             <Hamburger toggled={isOpen} toggle={setOpen} color="white"/>
             {isOpen &&
-                <div className='absolute top-[100%] bg-[#282523] min-h-full min-w-full'>
+                <div className='absolute top-[5.5%] bg-[#282523] min-h-[30px] min-w-full z-40'>
                     <div className='flex flex-col justify-between text-[#E3E3E3] uppercase text-lg text-center p-5'>
                         <Link href="/" className='p-2 focus:font-bold' onClick={() => setOpen(false)}>Homepage</Link>
                         {Pages.map((item:string,index:number) => (

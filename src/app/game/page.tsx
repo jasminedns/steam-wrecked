@@ -24,8 +24,8 @@ const GamePage = () => {
               <div className="flex flex-col lg:mx-8 lg:flex-row justify-around">
                 <AG_Trailer_Div />
               <AG_PPV_Div />
-              <BottomToTopArrow />
               </div>
+              <BottomToTopArrow />
         </div>
 
         </>

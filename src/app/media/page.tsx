@@ -5,6 +5,7 @@ import YouTubeSection from "@/components/YouTubeSection"
 import BackArrow from "@/components/BackArrow"
 import SocialMediaIcons from "@/components/SocialMediaIcons"
 
+import BlogMediaSection from "@/components/MediaBlogSection/BlogMediaSection"
 const MediaPage = () => {
     return (
         <>
@@ -38,6 +39,10 @@ const MediaPage = () => {
             <YouTubeSection />
 
             <BottomToTopArrow />
+            <div>
+                <BlogMediaSection/>
+            </div>
+
         </BackgroundWrapper>
         </>
     )

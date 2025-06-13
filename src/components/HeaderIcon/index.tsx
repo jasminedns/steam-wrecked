@@ -9,11 +9,12 @@ const HeaderIcon = () => {
     <Link href="/" className="flex items-center coursor-pointer">
      
         <Image
-          src="/logo.png"
+          src="/images/background/logo.png"
           alt="Steam Wrecked Logo"
-          width={50}
-          height={50}
-          className="rounded-full drop-shadow-[0-0-40px_#F92A06]"
+          width={0}
+          height={0}
+          sizes='100vw'
+          className='w-[5%] h-auto'
         />
     
     </Link>

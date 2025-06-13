@@ -2,12 +2,14 @@ import AGBalloonDiv from "@/components/AG_Balloon_content"
 import AG_PPV_Div from "@/components/AG_PPV_Div"
 import AG_Trailer_Div from "@/components/AG_Trailer_Div"
 import AGHeading from "@/components/AGHeading"
+import BackArrow from "@/components/BackArrow"
 import BottomToTopArrow from "@/components/BottomToTopArrow"
 
 const GamePage = () => {
     return(
         <>
         <div className="relative h-[1000px] sm:h-[1000px] md:h-[800px]  bg-[#2F5E72]">
+            <BackArrow />
             <div className="absolute inset-0">
 
                 <div className="relative z-10 text-white flex flex-col items-center justify-center h-full ">

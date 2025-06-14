@@ -1,4 +1,5 @@
 import HamburgerMobile from "@/components/HamburgerMobile";
+
 const Header = () => {
     return (
       <header>
@@ -8,6 +9,8 @@ const Header = () => {
           </div>
         </div>
       </header>
+      
+
     )
 }
 

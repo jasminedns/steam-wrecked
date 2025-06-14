@@ -31,7 +31,7 @@ const GamePage = () => {
               </div>
               <BottomToTopArrow />
         </div>
-
+          
         </>
     )
 }

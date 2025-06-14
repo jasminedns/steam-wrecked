@@ -4,8 +4,8 @@ import BackgroundWrapper from "@/components/AGBackground"
 import YouTubeSection from "@/components/YouTubeSection"
 import BackArrow from "@/components/BackArrow"
 import SocialMediaIcons from "@/components/SocialMediaIcons"
-
 import BlogMediaSection from "@/components/MediaBlogSection/BlogMediaSection"
+
 const MediaPage = () => {
     return (
         <>
@@ -37,12 +37,11 @@ const MediaPage = () => {
                 </div> 
             </div>
             <YouTubeSection />
-
             <BottomToTopArrow />
             <div>
                 <BlogMediaSection/>
             </div>
-
+            <SocialMediaIcons />
         </BackgroundWrapper>
         </>
     )

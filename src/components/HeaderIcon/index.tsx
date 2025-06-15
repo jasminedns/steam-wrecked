@@ -4,14 +4,15 @@ import React from 'react';
 
 const HeaderIcon = () => {
   return (
-    <Link href="/" className="flex items-center coursor-pointer">
+    <Link href="/" className="flex items-center coursor-pointer basis-[50%]">
      
         <Image
-          src="/logo.png"
+          src="/images/background/logo.png"
           alt="Steam Wrecked Logo"
-          width={50}
-          height={50}
-          className="rounded-full"
+          width={0}
+          height={0}
+          sizes='100vw'
+          className='m-1 sm:m-2 w-[35%] sm:w-[25%] md:w-[20%] lg:w-[15%] h-auto'
         />
     
     </Link>
@@ -19,3 +20,4 @@ const HeaderIcon = () => {
 };
 
 export default HeaderIcon;
+

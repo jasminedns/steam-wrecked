@@ -10,23 +10,18 @@ const showcaseImages = [
 
 const AGShowcase = () => {
   return (
-    <section className="w-full px-6 py-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <section className="w-full flex px-6 py-10 justify-center">
+      <div className=" m-8 ml-12 px-6 grid grid-cols-1 md:grid-cols-2 items-center">
         {showcaseImages.map((src, index) => (
-  <div
-    key={index}
-    className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md"
-  >
-    <Image
-      src={src}
-      alt={`Showcase image ${index + 1}`}
-      fill
-      className="object-cover"
-      priority={index === 0}
-    />
-  </div>
-))}
-
+          <div key={index} className='justify-center'>
+            <Image
+              src={src}
+              alt={`Showcase image ${index + 1}`}
+              width={0} height={0} sizes='100vw'
+              className="ml-10 my-4 object-contain w-[75%] h-auto"
+            />
+          </div>
+        ))}
       </div>
     </section>
   );

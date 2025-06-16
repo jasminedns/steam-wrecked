@@ -38,17 +38,11 @@ const MediaPage = () => {
                 </div> 
             </div>
             <YouTubeSection />
-
-
             <BottomToTopArrow />
             <div>
                 <BlogMediaSection/>
             </div>
-
-
             <SocialMediaIcons />
-
-
         </BackgroundWrapper>
         </>
     )

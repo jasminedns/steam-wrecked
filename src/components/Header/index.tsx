@@ -6,7 +6,8 @@ const Header = () => {
     return (
       <header>
          <div className="bg-[#282523] h-14 w-full flex justify-between relative z-99">
-            <HeaderIcon />
+            <HeaderIcon linkClass="flex items-center cursor-pointer basis-[50%]" 
+              imgClass="m-1  sm:m-2 md:m-3  w-[30%] sm:w-[20%] md:w-[15%] lg:w-[10%] h-auto"/>
             <HeaderLinks />
             <div className="flex justify-end md:hidden z-40">
               <HamburgerMobile />

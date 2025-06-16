@@ -10,6 +10,7 @@ const showcaseImages = [
 
 const AGShowcase = () => {
   return (
+
     <section className="w-full flex px-6 py-10 justify-center">
       <div className=" m-8 ml-12 px-6 grid grid-cols-1 md:grid-cols-2 items-center">
         {showcaseImages.map((src, index) => (

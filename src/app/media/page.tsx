@@ -6,6 +6,7 @@ import YouTubeSection from "@/components/YouTubeSection"
 import BackArrow from "@/components/BackArrow"
 import BlogMediaSection from "@/components/MediaBlogSection/BlogMediaSection"
 import SocialMediaIcons from "@/components/SocialMediaIcons"
+import ImageSlider from "@/components/ImageSlider"
 
 
 const MediaPage = () => {
@@ -43,7 +44,7 @@ const MediaPage = () => {
 
             <BottomToTopArrow />
             <div>
-                <BlogMediaSection/>
+                <ImageSlider />
             </div>
 
 

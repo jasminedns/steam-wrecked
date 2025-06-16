@@ -18,7 +18,10 @@ const MediaPage = () => {
             <div className="mb-[32px]">
                 <div className="flex justify-center items-center">
                     <div className="bg-black/27 rounded-3xl w-[90%] md:w-[30%] m-[24px]">
-                        <h2 className="text-[#E3E3E3] font-bold charter text-4xl md:text-6xl text-center p-4">MEDIA</h2>
+                        <h2 className="text-[#E3E3E3] font-bold charter text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center p-4">
+                           MEDIA
+                          </h2>
+
                     </div>
                 </div>
                 <div className="md:min-h-[450px] w-[100%] my-[48px]">
@@ -31,7 +34,7 @@ const MediaPage = () => {
                             "/images/player/player4.png"
                         ].map((item, index) => (
                             <div key={index} className={`relative w-[200px] h-[200px] md:h-[300px] flex justify-center items-center ${index > 2 ? "hidden xl:flex" : ""}`}>
-                                <img src={item} alt="player image" className="w-full h-full relative z-20"/>
+                                <img src={item} alt="player image" className="w-full h-auto object-contain relative z-20"/>
                                 <div className="absolute h-[400px] w-[200px] sm:w-[300px] md:w-[450px] md:h-[450px] bg-radial from-[#D0780B] from-25% to-transparent to-60%"></div>
                             </div>
                         ))}

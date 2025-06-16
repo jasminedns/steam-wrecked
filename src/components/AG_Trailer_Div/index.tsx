@@ -8,7 +8,7 @@ const AG_Trailer_Div = () => {
   const videoId = 'GyO1MtLhyt0'; 
     return (
         <>
-            <div className="flex flex-col m-4 lg:m-8 lg:basis-[50%] items-center">
+            <div className="flex flex-col m-6 lg:m-8 lg:basis-[50%] items-center">
                 <p className="uppercase text-[24px] md:text-[32px] text-center charter m-6 mb-0 text-[#F5F5F5]">Trailer</p>
                 <div className=" m-4 lg:mx-0 sm:m-6 relative w-full max-w-[450px] md:max-w-[500px] lg:max-w-[500px] h-auto
                   aspect-video rounded-lg overflow-hidden">

@@ -2,7 +2,11 @@ import "@/app/globals.css"
 import BottomToTopArrow from "@/components/BottomToTopArrow"
 import BackgroundWrapper from "@/components/AGBackground"
 import YouTubeSection from "@/components/YouTubeSection"
+
 import BackArrow from "@/components/BackArrow"
+import BlogMediaSection from "@/components/MediaBlogSection/BlogMediaSection"
+import SocialMediaIcons from "@/components/SocialMediaIcons"
+
 
 const MediaPage = () => {
     return (
@@ -35,7 +39,17 @@ const MediaPage = () => {
                 </div> 
             </div>
             <YouTubeSection />
+
+
             <BottomToTopArrow />
+            <div>
+                <BlogMediaSection/>
+            </div>
+
+
+            <SocialMediaIcons />
+
+
         </BackgroundWrapper>
         </>
     )

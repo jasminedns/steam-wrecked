@@ -1,12 +1,10 @@
 const AGHeading = () => {
     return (
-        <div className="pt-12">
-            <div className="w-full max-w-2xl mx-auto sm:ml-10 md:ml-9 lg:ml-3 bg-gray-900/30  rounded-3xl shadow-2xl p-4">
-                <h1 className="charter text-4xl md:text-3xl lg:text-5xl text-center opacity-800">
+            <div className="bg-black/27 my-[48px] rounded-3xl">
+            <h1 className="text-[#E3E3E3] font-bold charter text-4xl md:text-6xl text-center p-4">
                     ABOUT THE GAME
                 </h1>
             </div>
-        </div>
     );
 }
 

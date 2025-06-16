@@ -7,12 +7,12 @@ const HeaderIcon = () => {
     <Link href="/" className="flex items-center coursor-pointer basis-[50%]">
      
         <Image
-          src="/images/background/logo.png"
+          src="/images/logo/SteamWrecked_LOGO.png"
           alt="Steam Wrecked Logo"
           width={0}
           height={0}
           sizes='100vw'
-          className='m-1 sm:m-2 w-[35%] sm:w-[25%] md:w-[20%] lg:w-[15%] h-auto'
+          className='m-1  sm:m-2 md:m-3  w-[30%] sm:w-[20%] md:w-[15%] lg:w-[10%] h-auto'
         />
     
     </Link>

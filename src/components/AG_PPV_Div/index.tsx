@@ -8,7 +8,7 @@ const AG_PPV_Div = () => {
                     After a crash leaves you stranded in the wasteland, survival becomes your only mission. 
                     Can you repair your ship and return to the skies — or will the dead world claim you?</p>
             </div>
-            </div>
+        </div>
         </>
     )
 }

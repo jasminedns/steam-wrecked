@@ -6,19 +6,19 @@ import HeaderIcon from "../HeaderIcon";
 
 const Footer = () => {
     return (
-        <footer className="relative bg-[#7D7D7D]/38 text-white flex flex-col justify-center items-center p-[4px] z-10 md:flex-row md:justify-between">
+        <footer className="relative bg-[#7D7D7D]/38 text-white flex flex-col justify-center items-center z-10 md:flex-row md:justify-between">
             <div className="uppercase text-base m-[8px] flex flex-col md:w-[20%]">
                 <Link href="/" className="hover:underline text-center mt-2">Homepage</Link>
                     {Pages.map((item:string,index:number) => (
                         <Link key={index} href={`/${item.replace(/^the /i, "")}`} className="hover:underline text-center mt-2">{item.includes("the") ? `about  ${item}` : item}</Link>
                 ))}
             </div>       
-            <div className="flex mt-8 md:w-[20%] justify-center">
+            <div className="flex mt-8 mb-2 md:w-[20%] justify-center">
                 <div className="social_icon_container">
-                    <FaInstagram size={40} className="social_icon hover:cursor-pointer"/>
+                    <FaInstagram size={40} className="social_icon hover:cursor-pointer" fill="white"/>
                 </div>
                 <div className="social_icon_container">
-                    <FaXTwitter size={40} className="social_icon hover:cursor-pointer"/>
+                    <FaXTwitter size={40} className="social_icon hover:cursor-pointer" fill="white"/>
                 </div>
                 <div className="social_icon_container">
                     <FaYoutube size={40}  className="social_icon hover:cursor-pointer" fill="white"/>

@@ -15,19 +15,22 @@ const ImageLink = () => {
     }
 
     return (
-        <>
-            {Pages.map((item:string, index:number) => (
-                <div key={index} className="mb-3 md:mt-[-36px]">
-                    <Link key={index} href={`/${item.replace(/^the /i, "")}`} className="flex flex-col items-center justify-center w-[212px]">
-                        <div className="image__container">
-                            {diffImg(index)}
-                        </div>
-                        {item.includes("the") ? <p className="image__link">about {item}</p> : <p className="image__link">{item}</p>}
-                    </Link>
+        <div className="flex flex-wrap gap-6 justify-center">
+            {Pages.map((item: string, index: number) => (
+                <div key={index} className="w-[212px] md:-mt-[36px]">
+                <Link
+                    href={`/${item.replace(/^the /i, "")}`}
+                    className="flex flex-col items-center justify-center"
+                >
+                    {diffImg(index)}
+                    <p className="image__link mt-2 text-center text-white text-sm">
+                        {item.includes("the") ? `about ${item}` : item}
+                    </p>
+                </Link>
                 </div>
             ))}
-        </>
-    )
+        </div>
+    );
 }
 
 export default ImageLink;

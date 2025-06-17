@@ -20,7 +20,7 @@ const HpDownloadButton = () => {
         cursor-pointer
       "
     >
-      Download Here
+      DOENLOAD HERE
     </a>
   );
 };

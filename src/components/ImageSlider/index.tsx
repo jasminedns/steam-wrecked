@@ -1,5 +1,6 @@
 'use client'
 import SimpleImageSlider from "react-simple-image-slider";
+import { useEffect, useState } from "react";
 
 const Images:string[] = [
     "/images/background/image_1.png",
@@ -9,58 +10,47 @@ const Images:string[] = [
     "/images/background/image_5.png",
 ];
 
+interface SliderSize {
+  width: number;
+  height: number;
+}
+
 const ImageSlider = () => {
+  const [sliderSize, setSliderSize] = useState<SliderSize>({ width: 320, height: 200 });
 
-    return (
-      <div className="w-full flex justify-center items-center p-4">
-        {/* Mobile */}
-        <div className="block sm:hidden  border-black border-2 shadow-2xl m-4">
-          <SimpleImageSlider
-            width={320}
-            height={200}
-            images={Images}
-            showBullets={true}
-            showNavs={true}
-            autoPlay={true}
-          />
-        </div>
-  
-        {/* Tablet */}
-        <div className="hidden sm:block md:hidden  border-black border-2 shadow-2xl m-4 ">
-          <SimpleImageSlider
-            width={600}
-            height={375}
-            images={Images}
-            showBullets={true}
-            showNavs={true}
-            autoPlay={true}
-          />
-        </div>
-  
-        {/* Desktop */}
-        <div className="hidden md:block lg:hidden  border-black border-2 shadow-2xl m-4">
-          <SimpleImageSlider
-            width={700}
-            height={400}
-            images={Images}
-            showBullets={true}
-            showNavs={true}
-            autoPlay={true}
-          />
-        </div>
+  useEffect(() => {
+    const handleResize = () => {
+      const screenWidth = window.innerWidth;
+      if (screenWidth >= 1024) {
+        setSliderSize({ width: 900, height: 500 });
+      } else if (screenWidth >= 768) {
+        setSliderSize({ width: 700, height: 400 });
+      } else if (screenWidth >= 640) {
+        setSliderSize({ width: 600, height: 375 });
+      } else {
+        setSliderSize({ width: 320, height: 200 });
+      }
+    };
 
-        <div className="hidden lg:block border-black border-2 shadow-2xl m-4">
-          <SimpleImageSlider
-            width={900}
-            height={500}
-            images={Images}
-            showBullets={true}
-            showNavs={true}
-            autoPlay={true}
-          />
-        </div>
+    handleResize(); 
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return (
+    <div className="w-full flex justify-center items-center p-4">
+      <div className="border-black border-2 shadow-2xl m-4">
+      <SimpleImageSlider
+        width={sliderSize.width}
+        height={sliderSize.height}
+        images={Images}
+        showBullets={true}
+        showNavs={true}
+        autoPlay={true}
+      />
       </div>
-    );
-  };
-  
-  export default ImageSlider;
+    </div>
+  );
+};
+
+export default ImageSlider;

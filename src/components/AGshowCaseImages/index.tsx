@@ -11,10 +11,10 @@ const showcaseImages = [
 const AGShowcase = () => {
   return (
     <>
-      <div className='m-10 mb-0 md:px-0 lg:m-8 lg:mb-0 flex flex-col lg:flex-row flex-wrap'>
+      <div className='m-10 mb-0 md:px-0 lg:m-8 lg:mb-0 flex flex-col lg:flex-row lg:flex-wrap'>
         {
           showcaseImages.map((item: string, index: number) => (
-            <div key={index} className='basis-[50%] justify-items-center'>
+            <div key={index} className='lg:basis-[50%] basis-[100%] justify-items-center'>
               <Image 
                 src={item} 
                 alt={`Showcase image ${index + 1}`} 

@@ -4,7 +4,7 @@ import React from 'react';
 const showcaseImages = [
   '/images/background/ScreenShot00012.png',
   '/images/background/ScreenShot00013.png',
-  '/images/background/ScreenShot00014.png',
+  '/images/background/ScreenShot00009.png',
   '/images/background/ScreenShot00015.png',
 ];
 

@@ -27,10 +27,7 @@ const GamePage = () => {
 
         <div className="bg-[linear-gradient(75deg,rgba(23,109,130,1)_0%,rgba(130,100,75,1)_27%,rgba(32,113,135,1)_61%,rgba(16,84,94,1)_100%)] relative -mb-36 pb-35 md:-mb-36 md:pb-36">
               <div className="flex flex-col lg:mx-8 lg:flex-row justify-around">
-<<<<<<< HEAD
                 <AG_Backstory_Div />
-=======
->>>>>>> ticket-23/new-footer
                 <AG_PPV_Div />
               </div>
               <AGShowcase />

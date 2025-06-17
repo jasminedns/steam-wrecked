@@ -13,7 +13,8 @@ const Footer = () => {
                         <Link key={index} href={`/${item.replace(/^the /i, "")}`} className="hover:underline text-center mt-2">{item.includes("the") ? `about  ${item}` : item}</Link>
                 ))}
             </div>       
-            <div className="flex mt-8 mb-2 md:w-[20%] justify-center">
+            {/* <div className="flex mt-8 mb-2 md:w-[20%] justify-center" className="hidden">  */}
+            <div className="hidden">
                 <div className="social_icon_container">
                     <FaInstagram size={40} className="social_icon hover:cursor-pointer" fill="white"/>
                 </div>

@@ -41,7 +41,7 @@ const MediaPage = () => {
             <YouTubeSection />
 
 
-            <BottomToTopArrow />
+            <BottomToTopArrow className="absolute bottom-6 right-0 md:right-6 z-50 p-3 rounded-full hover:bg-black"/>
             <div>
                 <BlogMediaSection/>
             </div>

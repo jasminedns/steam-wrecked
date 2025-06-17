@@ -4,7 +4,8 @@ import BackgroundWrapper from "@/components/AGBackground"
 import YouTubeSection from "@/components/YouTubeSection"
 import BackArrow from "@/components/BackArrow"
 import SocialMediaIcons from "@/components/SocialMediaIcons"
-import BlogMediaSection from "@/components/MediaBlogSection/BlogMediaSection"
+import ImageSlider from "@/components/ImageSlider"
+
 
 
 const MediaPage = () => {
@@ -40,7 +41,7 @@ const MediaPage = () => {
             <YouTubeSection />
             <BottomToTopArrow className="absolute bottom-6 right-0 md:right-6 z-50 p-3 rounded-full hover:bg-black"/>
             <div>
-                <BlogMediaSection/>
+                <ImageSlider />
             </div>
             <SocialMediaIcons />
         </BackgroundWrapper>

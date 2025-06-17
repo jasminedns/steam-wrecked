@@ -16,7 +16,7 @@ const ImageLink = () => {
           src={imageMap[index] || imageMap[2]}
           alt={`Player image ${index + 1}`}
           fill
-          className="object-cover cursor-pointer rounded-md"
+          className="object-cover cursor-pointer rounded-md w-[100%] h-auto"
           priority={index === 0}
         />
       </div>

@@ -9,22 +9,75 @@ const Images:string[] = [
     "/images/background/image_5.png",
 ];
 
+// const ImageSlider = () => {
+//     return (
+//         <>
+//         <div className="">
+//         <div className="m-8 p-4 h-auto flex items-center">
+//             <SimpleImageSlider
+//                 width={"75%"}
+//                 height={"25%"}
+//                 images={Images}
+//                 showBullets={true}
+//                 showNavs={true}
+//                 autoPlay={false}
+//                 />
+//               </div>
+//               </div>
+//         </>
+       
+//     )
+// }
+
+// export default ImageSlider
+
 const ImageSlider = () => {
     return (
-        <>
-        <div className="m-8 w-full p-4 h-auto flex items-center">
-            <SimpleImageSlider
-                width={800}
-                height={500}
-                images={Images}
-                showBullets={true}
-                showNavs={true}
-                autoPlay={true}
-                />
-              </div>
-        </>
-       
-    )
-}
+      <div className="w-full flex justify-center items-center p-4">
+        {/* Mobile */}
+        <div className="block sm:hidden  border-black border-2 shadow-2xl">
+          <SimpleImageSlider
+            width={320}
+            height={200}
+            images={Images}
+            showBullets={true}
+            showNavs={true}
+          />
+        </div>
+  
+        {/* Tablet */}
+        <div className="hidden sm:block md:hidden  border-black border-2 shadow-2xl">
+          <SimpleImageSlider
+            width={600}
+            height={375}
+            images={Images}
+            showBullets={true}
+            showNavs={true}
+          />
+        </div>
+  
+        {/* Desktop */}
+        <div className="hidden md:block lg:hidden  border-black border-2 shadow-2xl">
+          <SimpleImageSlider
+            width={700}
+            height={400}
+            images={Images}
+            showBullets={true}
+            showNavs={true}
+          />
+        </div>
 
-export default ImageSlider
+        <div className="hidden lg:block border-black border-2 shadow-2xl m-4">
+          <SimpleImageSlider
+            width={900}
+            height={500}
+            images={Images}
+            showBullets={true}
+            showNavs={true}
+          />
+        </div>
+      </div>
+    );
+  };
+  
+  export default ImageSlider;

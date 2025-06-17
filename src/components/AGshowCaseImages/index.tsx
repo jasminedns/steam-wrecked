@@ -20,7 +20,7 @@ const AGShowcase = () => {
                 width={0} 
                 height={0} 
                 sizes="100vw" 
-                className="mb-[80px] object-contain w-[100%] md:w-[75%] h-auto border-2 border-black" 
+                className="mb-[80px]  w-[100%] md:w-[75%] h-auto border-2 border-black object-contain" 
               />
             </div>
           ))

@@ -17,7 +17,7 @@ const ImageLink = () => {
     return (
         <>
             {Pages.map((item:string, index:number) => (
-                <div key={index} className="mb-3">
+                <div key={index} className="mb-3 md:mt-[-36px]">
                     <Link key={index} href={`/${item.replace(/^the /i, "")}`} className="flex flex-col items-center justify-center w-[212px]">
                         <div className="image__container">
                             {diffImg(index)}

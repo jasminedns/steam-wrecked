@@ -26,7 +26,7 @@ const ImageLink = () => {
   return (
     <div className="flex flex-wrap gap-6 justify-center">
       {Pages.map((item: string, index: number) => (
-        <div key={index} className="w-[212px]">
+        <div key={index} className="w-[212px] md:-mt-[36px]">
           <Link
             href={`/${item.replace(/^the /i, "")}`}
             className="flex flex-col items-center justify-center"

@@ -7,7 +7,7 @@ const BackArrow = () => {
 
     return (
         <div className="absolute items-center justify-center hover:bg-black rounded-full ml-4 mt-2 z-50">
-        <IoArrowBack color="white" onClick={router.back} size={32} cursor="pointer"/> 
+        <IoArrowBack color="white" onClick={() => router.push("/")} size={32} cursor="pointer"/> 
     </div>
     );
 };

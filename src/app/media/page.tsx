@@ -2,7 +2,6 @@ import "@/app/globals.css"
 import BottomToTopArrow from "@/components/BottomToTopArrow"
 import BackgroundWrapper from "@/components/AGBackground"
 import BackArrow from "@/components/BackArrow"
-import BlogMediaSection from "@/components/MediaBlogSection/BlogMediaSection"
 import ImageSlider from "@/components/ImageSlider"
 
 
@@ -11,17 +10,18 @@ const MediaPage = () => {
         <>
         <div className="absolute z-50 pointer-events-auto bg-transparent">
               <BackArrow/>
-          </div>
+        </div>
+        
         <BackgroundWrapper>
             <div className="mb-[32px]">
                 <div className="flex justify-center items-center">
                     <div className="bg-black/27 rounded-3xl w-[90%] md:w-[30%] m-[24px]">
                         <h2 className="text-[#E3E3E3] font-bold charter text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center p-4">
                            MEDIA
-                          </h2>
-
+                        </h2>
                     </div>
                 </div>
+                
                 <div className="md:min-h-[450px] w-[100%] my-[48px]">
                     <div className="flex flex-row justify-center items-end w-[60%] m-auto relative">
                         {[
@@ -39,14 +39,17 @@ const MediaPage = () => {
                     </div>
                 </div> 
             </div>
-            <BottomToTopArrow className="absolute bottom-6 right-0 md:right-6 z-50 p-3 rounded-full hover:bg-black"/>
-            <div>
-                <ImageSlider />
+            <ImageSlider />
+            <div className="flex justify-end p-6 mt-24 mb-4">
+                <BottomToTopArrow className="absolute bottom-0 right-0 md:right-6 z-50 p-3 rounded-full hover:bg-black"/>
             </div>
-
         </BackgroundWrapper>
+
+
+
+
+
         </>
     )
 }
-
 export default MediaPage

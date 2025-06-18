@@ -78,9 +78,9 @@ const PeopleCards: React.FC<PeopleCardsProps> = ({ category, onBack }) => {
         >
           ← Back
         </button>
-        <h1 className=" flex text-2xl font-bold text-center text-white tracking-widest uppercase">
+        <h2 className=" flex text-2xl font-bold text-center text-white tracking-widest uppercase">
           {categoryInfo?.name}
-        </h1>
+        </h2>
       </div>
 
       {filteredPeople.length === 0 ? (
@@ -110,7 +110,7 @@ const PeopleCard: React.FC = () => {
   };
 
   return (
-    <div className="flex justify-center items-center flex-grow bg-gradient-to-b from-[#79221E] to-[#4A1410] relative min-h-[70vh] max-md:min-h-[60vh] max-sm:min-h-[65vh] -mb-26 pb-24">
+    <div className="flex justify-center items-center flex-grow bg-gradient-to-b from-[#79221E] to-[#4A1410] relative min-h-[70vh] max-md:min-h-[60vh] max-sm:min-h-[65vh] -mb-36 pb-35 md:-mb-36 md:pb-36">
       {!selectedCategory ? (
         <CategorySelection onCategorySelect={handleCategorySelect} />
       ) : (

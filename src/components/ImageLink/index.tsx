@@ -16,7 +16,7 @@ const ImageLink = () => {
           src={imageMap[index] || imageMap[2]}
           alt={`Player image ${index + 1}`}
           fill
-          className="object-cover cursor-pointer rounded-md"
+          className="object-cover cursor-pointer rounded-md w-[100%] h-auto"
           priority={index === 0}
         />
       </div>
@@ -26,7 +26,7 @@ const ImageLink = () => {
   return (
     <div className="flex flex-wrap gap-6 justify-center">
       {Pages.map((item: string, index: number) => (
-        <div key={index} className="w-[212px]">
+        <div key={index} className="w-[212px] md:-mt-[36px]">
           <Link
             href={`/${item.replace(/^the /i, "")}`}
             className="flex flex-col items-center justify-center"

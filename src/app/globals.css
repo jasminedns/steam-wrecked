@@ -92,6 +92,10 @@
   text-transform: uppercase;
 }
 
+.logo-footer {
+  width: 1000px;
+}
+
 @media screen and (max-width: 677px) {
   .mobile {
     align-items: center;

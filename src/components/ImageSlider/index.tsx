@@ -22,7 +22,7 @@ const ImageSlider = () => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
       if (screenWidth >= 1024) {
-        setSliderSize({ width: 800, height: 500 });
+        setSliderSize({ width: 900, height: 500 });
       } else if (screenWidth >= 768) {
         setSliderSize({ width: 700, height: 400 });
       } else if (screenWidth >= 640) {

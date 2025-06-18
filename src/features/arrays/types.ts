@@ -41,7 +41,7 @@ export const people: Person[] = [
     name: "ALFRED P. ANKARSTRAND",
     subrole: "LEVEL",
     category: "designer",
-    email: "#"
+    email: "Alfred.Ankarstrand@edu.futuregames.se"
   },
     {
     id: 2,
@@ -50,7 +50,7 @@ export const people: Person[] = [
     subrole2: "TECH",
     subrole3: "LEAD",
     category: "designer",
-    email: "#"
+    email: "Brian.Barikhan@edu.futuregames.se"
   },
   {
     id: 3,
@@ -58,7 +58,7 @@ export const people: Person[] = [
     subrole: "LEVEL",
     subrole2: "NARRATIVE",
     category: "designer",
-    email: "#"
+    email: "Davidrunnding@gmail.com"
   },
   {
     id: 4,
@@ -67,14 +67,14 @@ export const people: Person[] = [
     subrole2: "SYSTEM UI",
     subrole3: "PRODUCT OWNER",
     category: "designer",
-    email: "#"
+    email: "Isabelledatseriholjer@gmail.com"
   },
   {
     id: 5,
     name: "EMILIA MOLANDER",
     subrole: "CHARACTER",
     category: "artist",
-    email: "#"  
+    email: "emmol0208@gmail.com"  
   },
     {
     id: 6,
@@ -82,7 +82,7 @@ export const people: Person[] = [
     subrole: "PROP",
     subrole2: "2D",
     category: "artist",
-    email: "#"  
+    email: "Luke.lofgren@edu.futuregames.se"  
   },
   {
     id: 7,
@@ -90,7 +90,7 @@ export const people: Person[] = [
     subrole: "ENVIRONMENTAL",
     subrole2: "ART DIRECTOR",
     category: "artist",
-    email: "#"  
+    email: "shauniraven@gmail.com"  
   },
   {
     id: 8,
@@ -98,21 +98,21 @@ export const people: Person[] = [
     subrole: "SYSTEM",
     subrole2: "LEAD",
     category: "programmer",
-    email: "#"  
+    email: "Ilyaskaya03@hotmail.com"  
   },
   {
     id: 9,
     name: "ISAK SIGVARDSSON",
     subrole: "GAMEPLAY",
     category: "programmer",
-    email: "#"  
+    email: "Sigvardsson.Isak@hotmail.com"  
   },
   {
     id: 10,
     name: "MARCUS PERSSON",
     subrole: "AI",
     category: "programmer",
-    email: "#"  
+    email: "Marcus.persson@edu.futuregames.se"  
   },
   {
     id: 11,
@@ -121,35 +121,35 @@ export const people: Person[] = [
     subrole2: "SYSTEM ANIMATIONS",
     subrole3: "VFX",
     category: "programmer",
-    email: "#"  
+    email: "yuyongqin2002@gmail.com"  
   },
   {
     id: 12,
     name: "DAVID HULT",
     subrole: "VFX",
     category: "programmer",
-    email: "#"  
+    email: "David.hult@edu.futuregames.se"  
   },
   {
     id: 13,
     name: "JOVAN IVANOVIC",
     subrole: "ANIMATOR",
     category: "programmer",
-    email: "#"  
+    email: "Jovan.Ivanovic@edu.futuregames.se"  
   },
   {
     id: 14,
     name: "LEVON SHAYA",
     subrole: "RELEASE MANAGER",
     category: "project manager",
-    email: "#"
+    email: "Levonshaya@gmail.com"
   },
   {
     id: 15,
     name: "SHERMARKE OSMAN",
     subrole: "RELEASE MANAGER",
     category: "project manager",
-    email: "#"
+    email: "Sharmarke.osman@edu.futuregames.se"
   },
   {
     id: 16,
@@ -157,14 +157,14 @@ export const people: Person[] = [
     subrole: "PROJECT MANAGER",
     subrole2: "SCRUM MASTER",
     category: "project manager",
-    email: "#"
+    email: "tamara.dalic@edu.futuregames.se"
   },
   {
     id: 17,
     name: "VILLE SÖDERBERG",
     subrole: "PRODUCER",
     category: "project manager",
-    email: "#"
+    email: "villesoderberg@gmail.com"
   },
   {
     id: 18,
@@ -172,42 +172,42 @@ export const people: Person[] = [
     subrole: "FRONT-END DEV",
     subrole2: "SCRUM MASTER",
     category: "frontend developer",
-    email: "#"
+    email: "jasminedanese@icloud.com"
   },
   {
     id: 19,
     name: "PRIYADHARSHINI SEETHA RAM",
     subrole: "FRONT-END DEV",
     category: "frontend developer",
-    email: "#"
+    email: "svpriyaa2808@gmail.com"
   },
   {
     id: 20,
     name: "André Torabpour",
     subrole: "FRONT-END DEV",
     category: "frontend developer",
-    email: "#"
+    email: "Andre.torabpour@gmail.com"
   },
   {
     id: 21,
     name: "Mustafa Larhnimi",
     subrole: "FRONT-END DEV",
     category: "frontend developer",
-    email: "#"
+    email: "Mustafa.Larhnimi@edu.futuregames.se"
   },
     {
     id: 22,
     name: "Maedeh Zandieh",
     subrole: "FRONT-END DEV",
     category: "frontend developer",
-    email: "#"
+    email: "Maedeh.zandieh@gmail.com"
   },
   {
     id: 23,
     name: "Meaza Efrem",
     subrole: "FRONT-END DEV",
     category: "frontend developer",
-    email: "#"
+    email: "Meaza.Efrem@edu.futuregames.se"
   },
 ];
 

@@ -4,8 +4,6 @@ import BackgroundWrapper from "@/components/AGBackground"
 import BackArrow from "@/components/BackArrow"
 import ImageSlider from "@/components/ImageSlider"
 
-
-
 const MediaPage = () => {
     return (
         <>

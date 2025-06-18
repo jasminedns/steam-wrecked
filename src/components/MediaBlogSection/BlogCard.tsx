@@ -15,7 +15,7 @@ const BlogCard = ({
         <h3 className="text-2xl sm:text-3xl font-bold leading-snug uppercase mb-6 font-[charter]">
           {title}
         </h3>
-        <p className="text-base sm:text-lg leading-relaxed font-[itf-devanagari-marathi] max-w-[35ch] mx-auto">
+        <p className="text-base md:text-[20px] leading-relaxed font-[itf-devanagari-marathi] max-w-[35ch] mx-auto">
           {text}
         </p>
         <div className="mt-6">

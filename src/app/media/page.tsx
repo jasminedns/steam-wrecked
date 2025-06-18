@@ -1,8 +1,8 @@
 import "@/app/globals.css"
 import BottomToTopArrow from "@/components/BottomToTopArrow"
 import BackgroundWrapper from "@/components/AGBackground"
-import YouTubeSection from "@/components/YouTubeSection"
 import BackArrow from "@/components/BackArrow"
+import BlogMediaSection from "@/components/MediaBlogSection/BlogMediaSection"
 import ImageSlider from "@/components/ImageSlider"
 
 
@@ -16,7 +16,10 @@ const MediaPage = () => {
             <div className="mb-[32px]">
                 <div className="flex justify-center items-center">
                     <div className="bg-black/27 rounded-3xl w-[90%] md:w-[30%] m-[24px]">
-                        <h2 className="text-[#E3E3E3] font-bold charter text-4xl md:text-6xl text-center p-4">MEDIA</h2>
+                        <h2 className="text-[#E3E3E3] font-bold charter text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center p-4">
+                           MEDIA
+                          </h2>
+
                     </div>
                 </div>
                 <div className="md:min-h-[450px] w-[100%] my-[48px]">
@@ -36,7 +39,6 @@ const MediaPage = () => {
                     </div>
                 </div> 
             </div>
-            <YouTubeSection />
             <BottomToTopArrow className="absolute bottom-6 right-0 md:right-6 z-50 p-3 rounded-full hover:bg-black"/>
             <div>
                 <ImageSlider />

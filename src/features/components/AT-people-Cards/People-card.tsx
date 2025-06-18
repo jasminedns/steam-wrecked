@@ -78,9 +78,9 @@ const PeopleCards: React.FC<PeopleCardsProps> = ({ category, onBack }) => {
         >
           ← Back
         </button>
-        <h1 className=" flex text-2xl font-bold text-center text-white tracking-widest uppercase">
+        <h2 className=" flex text-2xl font-bold text-center text-white tracking-widest uppercase">
           {categoryInfo?.name}
-        </h1>
+        </h2>
       </div>
 
       {filteredPeople.length === 0 ? (

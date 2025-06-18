@@ -2,6 +2,7 @@ import "@/app/globals.css"
 import BottomToTopArrow from "@/components/BottomToTopArrow"
 import BackgroundWrapper from "@/components/AGBackground"
 import BackArrow from "@/components/BackArrow"
+import BlogMediaSection from "@/components/MediaBlogSection/BlogMediaSection"
 import ImageSlider from "@/components/ImageSlider"
 
 const MediaPage = () => {
@@ -30,8 +31,9 @@ const MediaPage = () => {
                             "/images/player/player4.png"
                         ].map((item, index) => (
                             <div key={index} className={`relative w-[200px] h-[200px] md:h-[300px] flex justify-center items-center ${index > 2 ? "hidden xl:flex" : ""}`}>
-                                <img src={item} alt="player image" className="w-full h-auto object-contain relative z-20"/>
-                                <div className="absolute h-[400px] w-[200px] sm:w-[300px] md:w-[450px] md:h-[450px] bg-radial from-[#D0780B] from-25% to-transparent to-60%"></div>
+
+                                <img src={item} alt="player image" className="w-full h-full relative z-20"/>
+                                <div className="absolute h-[400px] w-[200px] sm:w-[300px] md:w-[450px] md:h-[450px] bg-radial from-[#D0780B] from-25% to-transparent to-60% "></div>
                             </div>
                         ))}
                     </div>

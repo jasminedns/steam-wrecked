@@ -6,6 +6,7 @@ import YouTubeSection from "@/components/YouTubeSection"
 import BackArrow from "@/components/BackArrow"
 import BlogMediaSection from "@/components/MediaBlogSection/BlogMediaSection"
 import SocialMediaIcons from "@/components/SocialMediaIcons"
+import ImageSlider from "@/components/ImageSlider"
 
 
 const MediaPage = () => {
@@ -32,16 +33,16 @@ const MediaPage = () => {
                         ].map((item, index) => (
                             <div key={index} className={`relative w-[200px] h-[200px] md:h-[300px] flex justify-center items-center ${index > 2 ? "hidden xl:flex" : ""}`}>
                                 <img src={item} alt="player image" className="w-full h-full relative z-20"/>
-                                <div className="absolute h-[400px] w-[200px] sm:w-[300px] md:w-[450px] md:h-[450px] bg-radial from-[#D0780B] from-25% to-transparent to-60%"></div>
+                                <div className="absolute h-[400px] w-[200px] sm:w-[300px] md:w-[450px] md:h-[450px] bg-radial from-[#D0780B] from-25% to-transparent to-60% "></div>
                             </div>
                         ))}
                     </div>
                 </div> 
             </div>
             <YouTubeSection />
-            <BottomToTopArrow />
+            <BottomToTopArrow className="absolute bottom-6 right-0 md:right-6 z-50 p-3 rounded-full hover:bg-black"/>
             <div>
-                <BlogMediaSection/>
+                <ImageSlider />
             </div>
             <SocialMediaIcons />
         </BackgroundWrapper>

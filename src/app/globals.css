@@ -52,7 +52,7 @@
 
 .image__container::before {
   content: " "; 
-  background-image: radial-gradient(circle, rgba(255, 224, 102, 1) 30%, rgba(249, 42, 6, 0.6) 70%, rgba(0, 0, 0, 0) 100%);
+  background-image: radial-gradient(circle, rgba(255, 224, 102, 1) 30%, rgba(249, 42, 6, 0.6) 70%, rgba(0, 0, 0, 0) 90%);
   border-radius: 50%;
   filter: blur(5px);
   height: 250px; 
@@ -62,7 +62,7 @@
   top: 15%;
   transform: scale(0);
   transition: transform 0.5s ease-out, opacity 0.5s ease-out;
-  width: 200px;
+  width: 210px;
   z-index: 10;
 }
 

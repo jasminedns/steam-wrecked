@@ -8,9 +8,7 @@ const HpDownloadDiv = () => {
           THE WORLD OF <br className="hidden sm:block" /> STEAM WRECKED
         </h1>
         <div className="flex justify-center">
-          <a href="#" download>
           <HpDownloadButton />
-          </a>
         </div>
         
       </div>

@@ -7,7 +7,7 @@ export default function Home() {
 return (
     <div>
       <div className="flex flex-col min-h-screen">
-        <div className="relative h-[70vh] max-sm:h-[50vh] max-md:h-[60vh] bg-[url('/images/background/keyart.jpeg')] bg-cover bg-[center_right_20%] sm:bg-right md:bg-center">
+      <div className="relative flex min-h-screen max-sm:h-[50vh] max-md:h-[60vh] bg-[url('/images/background/keyart.jpeg')] bg-cover bg-[center_right_20%] sm:bg-right md:bg-center flex items-center justify-center">
           <HpDownloadDiv/>
         </div>
         <div className="relative min-h-screen max-md:min-h-[60vh] max-sm:min-h-[65vh] w-full bg-[url('/images/background/EnvironmentConceptGroundlevel.jpeg')] bg-cover bg-[center_right_20%] sm:bg-right md:bg-center -mb-36 pb-35 md:-mb-36 md:pb-36">

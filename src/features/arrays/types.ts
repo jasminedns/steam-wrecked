@@ -193,22 +193,15 @@ export const people: Person[] = [
     name: "Mustafa Larhnimi",
     subrole: "FRONT-END DEV",
     category: "frontend developer",
-    email: "Mustafa.Larhnimi@edu.futuregames.se"
+    email: "mustafa.alarhnimi@gmail.com"
   },
     {
     id: 22,
     name: "Maedeh Zandieh",
     subrole: "FRONT-END DEV",
     category: "frontend developer",
-    email: "Maedeh.zandieh@gmail.com"
-  },
-  {
-    id: 23,
-    name: "Meaza Efrem",
-    subrole: "FRONT-END DEV",
-    category: "frontend developer",
-    email: "Meaza.Efrem@edu.futuregames.se"
-  },
+    email: "maedeh.zandieh@gmail.com"
+  }
 ];
 
 //types for navigation links 

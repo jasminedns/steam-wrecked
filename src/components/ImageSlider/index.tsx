@@ -39,7 +39,7 @@ const ImageSlider = () => {
 
   return (
     <div className="w-full flex justify-center items-center p-4">
-      <div className="border-black border-2 shadow-2xl m-4">
+      <div className="border-black border-2 shadow-2xl m-4 mb-[48px] sm:m-4">
       <SimpleImageSlider
         width={sliderSize.width}
         height={sliderSize.height}

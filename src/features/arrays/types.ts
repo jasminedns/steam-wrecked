@@ -31,7 +31,8 @@ export const categories: Category[] = [
   { id: 'designer', name: 'DESIGNERS' },
   { id: 'artist', name: 'ARTISTS' },
   { id: 'programmer', name: 'PROGRAMMERS' },
-  { id: 'project manager', name: 'Project Management' }
+  { id: 'project manager', name: 'Project Management' },
+  { id: 'vfx/animator', name: 'VFX/ANIMATOR' }
 ];
 
 export const people: Person[] = [
@@ -117,9 +118,9 @@ export const people: Person[] = [
   {
     id: 11,
     name: "YONGQIN YU",
-    subrole: "GAMEPLAY TOOLS",
-    subrole2: "SYSTEM ANIMATIONS",
-    subrole3: "VFX",
+    subrole: "GAMEPLAY",
+    subrole2: "TOOLS",
+    subrole3: "SYSTEM",
     category: "programmer",
     email: "yuyongqin2002@gmail.com"  
   },
@@ -127,14 +128,14 @@ export const people: Person[] = [
     id: 12,
     name: "DAVID HULT",
     subrole: "VFX",
-    category: "programmer",
+    category: "vfx/animator",
     email: "David.hult@edu.futuregames.se"  
   },
   {
     id: 13,
     name: "JOVAN IVANOVIC",
     subrole: "ANIMATOR",
-    category: "programmer",
+    category: "vfx/animator",
     email: "Jovan.Ivanovic@edu.futuregames.se"  
   },
   {

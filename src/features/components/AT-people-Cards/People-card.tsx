@@ -29,10 +29,10 @@ const PersonCard: React.FC<PersonCardProps> = ({ person }) => {
       <button
         onClick={handleConnect}
         disabled={!person.email}
-        className={`mt-6 px-6 py-4 rounded-full text-xl font-bold transition 
+        className={`mt-6 px-6 py-4 rounded-full text-xl font-bold transition hover:font-extrabold
           ${
             person.email
-              ? "cursor-pointer bg-[radial-gradient(circle,_#E67716_20%,_#761E1C_120%)]  "
+              ? "cursor-pointer bg-[radial-gradient(circle,_#E67716_20%,_#761E1C_120%)]"
               : "bg-gray-400 text-gray-700 cursor-not-allowed"
           }`}
       >

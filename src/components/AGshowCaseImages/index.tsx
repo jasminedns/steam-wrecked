@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import React from 'react';
 
-const showcaseImages = [
-  '/images/background/ScreenShot00012.png',
-  '/images/background/ScreenShot00013.png',
-  '/images/background/ScreenShot00009.png',
-  '/images/background/ScreenShot00015.png',
+const showcaseImages:string[] = [
+  '/images/screenshots/ScreenShot00010.png',
+  '/images/screenshots/ScreenShot00011.png',
+  '/images/screenshots/ScreenShot00009.png',
+  '/images/screenshots/ScreenShot00007.png',
 ];
 
 const AGShowcase = () => {

@@ -3,11 +3,19 @@ import SimpleImageSlider from "react-simple-image-slider";
 import { useEffect, useState } from "react";
 
 const Images:string[] = [
-    "/images/background/image_1.png",
-    "/images/background/image_2.png",
-    "/images/background/image_3.png",
-    "/images/background/image_4.png",
-    "/images/background/image_5.png",
+  '/images/screenshots/ScreenShot00000.png',
+  '/images/screenshots/ScreenShot00001.png',
+  '/images/screenshots/ScreenShot00002.png',
+  '/images/screenshots/ScreenShot00003.png',
+  '/images/screenshots/ScreenShot00004.png',
+  '/images/screenshots/ScreenShot00006.png',
+  '/images/screenshots/ScreenShot00007.png',
+  '/images/screenshots/ScreenShot00009.png',
+  '/images/screenshots/ScreenShot00010.png',
+  '/images/screenshots/ScreenShot00011.png',
+  '/images/screenshots/ScreenShot00012.png',
+  '/images/screenshots/ScreenShot00013.png',
+  '/images/screenshots/ScreenShot00014.png',
 ];
 
 interface SliderSize {

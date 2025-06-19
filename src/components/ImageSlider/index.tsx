@@ -3,6 +3,7 @@ import SimpleImageSlider from "react-simple-image-slider";
 import { useEffect, useState } from "react";
 
 const Images:string[] = [
+  '/images/screenshots/ScreenShot00000.png',
   '/images/screenshots/ScreenShot00001.png',
   '/images/screenshots/ScreenShot00002.png',
   '/images/screenshots/ScreenShot00003.png',

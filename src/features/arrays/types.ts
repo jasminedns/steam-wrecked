@@ -128,6 +128,8 @@ export const people: Person[] = [
     id: 12,
     name: "DAVID HULT",
     subrole: "VFX",
+    subrole2: "SFX",
+    subrole3: "CINEMATIC",
     category: "vfx/animator",
     email: "David.hult@edu.futuregames.se"  
   },
@@ -164,6 +166,7 @@ export const people: Person[] = [
     id: 17,
     name: "VILLE SÖDERBERG",
     subrole: "PRODUCER",
+    subrole2: "MUSIC",
     category: "project manager",
     email: "villesoderberg@gmail.com"
   },

@@ -3,6 +3,7 @@ import BottomToTopArrow from "@/components/BottomToTopArrow"
 import BackgroundWrapper from "@/components/AGBackground"
 import BackArrow from "@/components/BackArrow"
 import ImageSlider from "@/components/ImageSlider"
+import YoutubeVideo from "@/components/YoutubeVideo"
 
 
 const MediaPage = () => {
@@ -40,6 +41,7 @@ const MediaPage = () => {
                 </div> 
             </div>
             <ImageSlider />
+            <YoutubeVideo/>
             <div className="flex justify-end p-6 mt-24 mb-4">
                 <BottomToTopArrow className="absolute bottom-0 right-0 md:right-6 z-50 p-3 rounded-full hover:bg-black"/>
             </div>

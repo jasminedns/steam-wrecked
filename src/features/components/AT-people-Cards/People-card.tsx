@@ -29,10 +29,10 @@ const PersonCard: React.FC<PersonCardProps> = ({ person }) => {
       <button
         onClick={handleConnect}
         disabled={!person.email}
-        className={`mt-6 px-6 py-4 rounded-full text-xl font-bold transition hover:font-extrabold
+        className={`mt-6 px-6 py-4 rounded-full text-xl font-bold transition 
           ${
             person.email
-              ? "cursor-pointer bg-[radial-gradient(circle,_#E67716_20%,_#761E1C_120%)]"
+              ? "cursor-pointer bg-[radial-gradient(circle,_#E67716_20%,_#761E1C_120%)]  "
               : "bg-gray-400 text-gray-700 cursor-not-allowed"
           }`}
       >
@@ -50,7 +50,7 @@ const CategorySelection: React.FC<CategorySelectionProps> = ({ onCategorySelect 
           <button
             key={category.id}
             onClick={() => onCategorySelect(category.id)}
-            className="bg-[#060A0A] m-2 text-white min-h-[7em] rounded-full w-[45%] md:w-[29%] flex flex-col justify-center hover:cursor-pointer transition-all duration-300 hover:scale-105 shadow-none hover:shadow-[0_0_15px_6px_rgba(255,115,0,0.7)]"
+            className="bg-[#060A0A] m-2 text-white min-h-[7em] rounded-full w-[45%] md:w-[29%] flex flex-col justify-center hover:cursor-pointer transition-all duration-300 hover:scale-105 shadow-none hover:shadow-[0_0_15px_6px_rgba(255,115,0,0.7)] hover:bg-[#FFD700] hover:text-black"
           >
             <div className="text-center">
               <h2 className="text-sm md:text-xl font-extrabold text-white uppercase tracking-wide m-auto p-2">

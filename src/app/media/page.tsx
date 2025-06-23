@@ -16,9 +16,9 @@ const MediaPage = () => {
             <div className="mb-[32px]">
                 <div className="flex justify-center items-center">
                     <div className="bg-black/27 rounded-3xl w-[90%] md:w-[30%] m-[24px]">
-                        <h2 className="text-[#E3E3E3] font-bold charter text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center p-4">
+                        <h1 className="text-[#E3E3E3] font-bold charter text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center p-4">
                            MEDIA
-                        </h2>
+                        </h1>
                     </div>
                 </div>
                 

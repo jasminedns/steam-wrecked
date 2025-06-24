@@ -1,12 +1,12 @@
 'use client';
 
 import React, { useState } from 'react';
-import { 
-  PersonCardProps, 
-  CategorySelectionProps, 
+import {
+  PersonCardProps,
+  CategorySelectionProps,
   PeopleCardsProps,
   people,
-  categories 
+  categories
 } from '@/features/arrays/types';
 
 const PersonCard: React.FC<PersonCardProps> = ({ person }) => {
@@ -17,14 +17,14 @@ const PersonCard: React.FC<PersonCardProps> = ({ person }) => {
   };
 
   return (
-    <div className="bg-[#060A0A] opacity-77 text-white rounded-4xl p-6 w-full max-w-[28em] flex flex-col flex-grow justify-between items-center shadow-xl">
+    <div className="bg-[#060A0A] opacity-77 text-white rounded-4xl p-6 w-full sm:w-[22rem] md:w-[26rem] lg:w-[28rem] flex flex-col justify-between items-center shadow-xl">
       <h3 className="text-3xl font-extrabold text-center uppercase tracking-wide">
         {person.name}
       </h3>
       <p className="text-xl text-center text-white mt-8">
         {[person.subrole, person.subrole2, person.subrole3]
-      .filter(Boolean)
-      .join(' / ')}
+          .filter(Boolean)
+          .join(' / ')}
       </p>
       <button
         onClick={handleConnect}
@@ -32,7 +32,7 @@ const PersonCard: React.FC<PersonCardProps> = ({ person }) => {
         className={`mt-6 px-6 py-4 rounded-full text-xl font-bold transition 
           ${
             person.email
-              ? "cursor-pointer bg-[radial-gradient(circle,_#E67716_20%,_#761E1C_120%)]  "
+              ? "cursor-pointer bg-[radial-gradient(circle,_#E67716_20%,_#761E1C_120%)]"
               : "bg-gray-400 text-gray-700 cursor-not-allowed"
           }`}
       >
@@ -78,7 +78,7 @@ const PeopleCards: React.FC<PeopleCardsProps> = ({ category, onBack }) => {
         >
           ← Back
         </button>
-        <h2 className=" flex text-2xl font-bold text-center text-white tracking-widest uppercase">
+        <h2 className="flex text-2xl font-bold text-center text-white tracking-widest uppercase">
           {categoryInfo?.name}
         </h2>
       </div>

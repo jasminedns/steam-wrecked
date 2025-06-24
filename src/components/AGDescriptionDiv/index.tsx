@@ -7,7 +7,7 @@ const AGDescriptionDiv = () => {
                 <p className="mt-6 mx-10 sm:mx-16 text-justify charter">In a world ravaged by pollution and climate collapse, 
                     the wealthy have escaped to airborne cities, leaving the poor to survive in the scorched ruins below. 
                     You are a scavenger — a member of the Sandwalkers Guild — risking your life to collect vital resources 
-                    from the remnants of the old world.After a devastating crash, you're stranded in the wasteland. 
+                    from the remnants of the old world. After a devastating crash, you're stranded in the wasteland. 
                     To return home, you'll need to repair your ship, survive the chaos, and prove your worth in a 
                     world where only the toughest endure.
                 </p>
